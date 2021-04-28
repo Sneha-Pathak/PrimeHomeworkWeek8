@@ -42,7 +42,6 @@ NOTE: In total, you have to write 7 methods.
 public class Point
 {
     int x,y;
-    Point p1;
 
     public Point()
     {
@@ -80,7 +79,7 @@ public class Point
         return dis;
     }
 
-    public double distance(double x, double y)
+    public double distance(int x, int y)
     {
         //Math.sqrt((x*x)+(y*y));
         double dis = Math.sqrt((this.x - x)*(this.x-x)+(this.y-y)*(this.y - y));
